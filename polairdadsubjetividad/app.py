@@ -42,11 +42,10 @@ st.subheader("Por favor escribe en el campo de texto la frase que deseas analiza
 with st.sidebar:
     st.subheader("Polaridad y Subjetividad")
     st.markdown("""
-    Polaridad: Indica si el sentimiento expresado en el texto es positivo, negativo o neutral. 
+    Polaridad: Indica los sentimientos que se expresan en el texto.
     Su valor oscila entre -1 (muy negativo) y 1 (muy positivo), con 0 representando un sentimiento neutral.
 
-    Subjetividad: Mide cuánto del contenido es subjetivo (opiniones, emociones, creencias) frente a objetivo
-    (hechos). Va de 0 a 1, donde 0 es completamente objetivo y 1 es completamente subjetivo.
+    Subjetividad:Mide el contenido que varia segun la percepcion de la persona. Va de 0 a 1, donde 0 es completamente objetivo y 1 es completamente subjetivo.
     """)
 
 with st.expander('Analizar Polaridad y Subjetividad en un texto'):
